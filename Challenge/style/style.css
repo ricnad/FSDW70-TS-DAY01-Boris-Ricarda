@@ -27,3 +27,10 @@ a, .nav-item {
 
 }
 
+.card-img-top {
+	object-fit: cover;
+	height: 20vw;
+	width: 250px;
+	
+}
+
