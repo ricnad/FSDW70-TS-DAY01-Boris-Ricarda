@@ -1,0 +1,50 @@
+products = [
+	{
+		"name": "Margherita",
+		"img": "img/Margherita.jpg",
+		"description": "Tomato sauce , Mozzarella & Fresh basil",
+		"rating": 87,
+		"price": "7,50 $"
+	},
+	{
+		"name": "Salame",
+		"img": "img/salame.jpg",
+		"description": "Tomato sauce , Mozzarella , Salame & Fresh basil ",
+		"rating": 94,
+		"price": "8,50 $"
+	},
+	{
+		"name": "Quattro Formaggio",
+		"img": "img/quattro-formaggio.jpg",
+		"description": "Tomato sauce, Mozzarella, Ricotta, Gorgonzola, Parmesan & Fresh basil",
+		"rating": 66,
+		"price": "8,50 $"
+	},
+	{
+		"name": "Diavola",
+		"img": "img/diavola.jpg",
+		"description": "Tomato sauce, Mozzarella, Spicy Salame, Chillies & Fresh basil",
+		"rating": 42,
+		"price": "9,00 $"
+	},
+	{
+		"name": "Toscana",
+		"img": "img/la-toscana.jpg",
+		"description": "Tomato sauce, Mozzarella, Ham, Mushrooms, Salame, Artichokes & Fresh basil",
+		"rating": 84,
+		"price": "9,50 $"
+	},
+	{
+		"name": "Calzone",
+		"img": "img/calzone.jpg",
+		"description": "Tomato sauce , Mozzarella & Fresh basil",
+		"rating": 77,
+		"price": "7,50 $"
+	}]
+
+
+
+
+
+
+]
