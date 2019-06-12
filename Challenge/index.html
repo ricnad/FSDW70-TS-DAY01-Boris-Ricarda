@@ -63,16 +63,10 @@
 	
 	<!--Comment function-->
 	<form method="post" action="#"  data-module="FormValidator" class="comment">
-		<input type="text" name="Comment" placeholder="Write your comment">
-		<select class="btn btn-light">
-			<option value="Calzone">Calzone</option>
-			<option value="Calzone">Diavola</option>
-			<option value="Calzone">La Toscana</option>
-			<option value="Calzone">Margherita</option>
-			<option value="Calzone">Quattro Formaggio</option>
-			<option value="Calzone">Salame</option>
+		<input id="textcomment" type="text" name="Comment" placeholder="Write your comment">
+		<select class="select btn btn-light">
 		</select>
-		<button type="submit" class="btn btn-dark">Submit</button>
+		<button type="submit" class="btn btn-dark" onclick="myFunction()">Submit</button>
 
 	</form>
 
