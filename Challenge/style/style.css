@@ -1,16 +1,20 @@
 header {
 	background-color: black;
+	color: white;
+	font-size: 2em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5em;
 }
 
 .navbar {
 	background-color: #ce0018;
 }
 
-a {
+a, .nav-item {
 	color: white;
 }
-
-
 
 #carouselExampleIndicators {
 	height: 500px;
@@ -22,3 +26,4 @@ a {
 	height: 500px;
 
 }
+

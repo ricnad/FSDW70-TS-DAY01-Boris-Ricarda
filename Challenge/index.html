@@ -15,10 +15,11 @@
 </head>
 <body>
 	<header class="header">
-		<img src="img/logo.jpg" alt="Logo La Factoria" height="90px">
+		<span id="welcome">Welcome at Pizzeria la Factoria</span>
+		<img id="imglogo" src="img/logo.jpg" alt="Logo La Factoria" height="90px">
 	</header><!-- /header -->
 
-	<nav class="navbar navbar-expand-lg">
+	<nav class="navbar navbar-expand">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item active"><a class="nav-link" href="index.html" title="Index">Home</a></li>
 			<li class="nav-item active"><a class="nav-link" href="reservation.html">Reservation</a></li>
@@ -60,16 +61,35 @@
 	</div>
 
 	
+	<!--Comment function-->
+	<form method="post" action="#"  data-module="FormValidator" class="comment">
+		<input type="text" name="Comment" placeholder="Write your comment">
+		<select class="btn btn-light">
+			<option value="Calzone">Calzone</option>
+			<option value="Calzone">Diavola</option>
+			<option value="Calzone">La Toscana</option>
+			<option value="Calzone">Margherita</option>
+			<option value="Calzone">Quattro Formaggio</option>
+			<option value="Calzone">Salame</option>
+		</select>
+		<button type="submit" class="btn btn-dark">Submit</button>
+
+	</form>
+
+
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-	<footer class="navbar navbar-expand-lg">
+	<script src="js/script_rn.js"></script>
+
+	<footer class="navbar navbar-expand">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item active"><a class="nav-link" href="impressum.html">Impressum</a></li>
 			<li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+			<li class="nav-item active"><a class="nav-link" href="#">Copyright 2019 by Boris and Ricarda</a></li>
 		</ul>		
 	</footer>
 
