@@ -10,9 +10,15 @@ a {
 	color: white;
 }
 
-.d-block {
-	object-fit: contain;
-	width: 700px;
-	height: 400px;
+
+
+#carouselExampleIndicators {
+	height: 500px;
 }
 
+.d-block {
+	object-fit: cover;
+	width: 100vw;
+	height: 500px;
+
+}
